@@ -8,6 +8,10 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rajasekharpaul/Contact-manager.git"
+  },
   "keywords": [],
   "author": "Raja sekhar paul",
   "license": "ISC",
