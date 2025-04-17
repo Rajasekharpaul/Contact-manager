@@ -1,0 +1,21 @@
+/* filepath: d:\VScode\Projects\Contact-manager\frontend\src\components\Navbar.css */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
