@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // Adjust the URL as needed
+const API_URL = 'http://localhost:5000/api'; // Updated to point to backend server
 
 // Fetch all contacts
 export const fetchContacts = async () => {
