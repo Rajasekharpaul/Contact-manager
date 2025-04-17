@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css'; // Assuming you have a CSS file for styling
+import '../styles/Navbar.css';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
+            <div className="logo">Contact Manager</div>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
