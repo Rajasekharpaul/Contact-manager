@@ -36,7 +36,7 @@ const updateContact = asyncHandler(async (req, res) => {
         throw new Error("Contact not found");
     }
 
-    if (contact.user_id.toString() !== req.user_id) {
+    if (contact.user_id.toString() !== req.user.id) {
         res.status(401);
         throw new Error("User not authorized");
     }
@@ -52,7 +52,7 @@ const deleteContact = asyncHandler(async (req, res) => {
         res.status(404);
         throw new Error("Contact not found");
     }
-    if (contact.user_id.toString() !== req.user_id) {
+    if (contact.user_id.toString() !== req.user.id) {
         res.status(401);
         throw new Error("User not authorized");
     }

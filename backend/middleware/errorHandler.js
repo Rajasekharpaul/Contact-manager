@@ -19,7 +19,7 @@ const errorHandler = (err, req, res, next) => {
             res.status(statusCode).json({ title: "Server Error", message: err.message, stackTrace: err.stack });
             break;
         default:
-            console.log("No error, all good.");
+
             res.status(statusCode).json({ title: "Unknown Error", message: err.message, stackTrace: err.stack });
             break;
     }
